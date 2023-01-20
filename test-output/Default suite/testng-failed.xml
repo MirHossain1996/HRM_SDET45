@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Practice_TestNg.CheckDasboard_Head_TestNg">
+        <methods>
+          <include name="configAC"/>
+          <include name="check_dashboard"/>
+          <include name="configBC"/>
+          <include name="check_Head_crp_Bf_dashboard"/>
+          <include name="configDB"/>
+          <include name="configAM"/>
+          <include name="disconnectDB"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- Practice_TestNg.CheckDasboard_Head_TestNg -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="7" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[check_dashboard========>Testscripts execution started ]]>
+    </line>
+    <line>
+      <![CDATA[===Testscript Execution fail=======]]>
+    </line>
+    <line>
+      <![CDATA[check_Head_crp_Bf_dashboard========>Testscripts execution started ]]>
+    </line>
+    <line>
+      <![CDATA[===Testscript Execution fail=======]]>
+    </line>
+    <line>
+      <![CDATA[createCorporate========>Testscripts execution started ]]>
+    </line>
+    <line>
+      <![CDATA[createCorporate=======>Testscript excute successfully]]>
+    </line>
+    <line>
+      <![CDATA[check_Head_crp_Af_dashboard========>Testscripts execution started ]]>
+    </line>
+    <line>
+      <![CDATA[check_Head_crp_Af_dashboard=======>Testscript excute successfully]]>
+    </line>
+    <line>
+      <![CDATA[check_Head_branch_Bf_dashboard========>Testscripts execution started ]]>
+    </line>
+    <line>
+      <![CDATA[check_Head_branch_Bf_dashboard=======>Testscript excute successfully]]>
+    </line>
+    <line>
+      <![CDATA[createBranch========>Testscripts execution started ]]>
+    </line>
+    <line>
+      <![CDATA[createBranch=======>Testscript excute successfully]]>
+    </line>
+    <line>
+      <![CDATA[check_Head_Branch_Af_dashboard========>Testscripts execution started ]]>
+    </line>
+    <line>
+      <![CDATA[check_Head_Branch_Af_dashboard=======>Testscript excute successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30308" started-at="2023-01-13T15:49:32 IST" finished-at="2023-01-13T15:50:02 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30308" started-at="2023-01-13T15:49:32 IST" finished-at="2023-01-13T15:50:02 IST">
+      <class name="Practice_TestNg.CheckDasboard_Head_TestNg">
+        <test-method status="PASS" signature="configDB()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configDB" is-config="true" duration-ms="0" started-at="2023-01-13T15:49:32 IST" finished-at="2023-01-13T15:49:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configDB -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configBC" is-config="true" duration-ms="6565" started-at="2023-01-13T15:49:33 IST" finished-at="2023-01-13T15:49:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configBM" is-config="true" duration-ms="1938" started-at="2023-01-13T15:49:39 IST" finished-at="2023-01-13T15:49:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="FAIL" signature="check_dashboard()[pri:-1, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="check_dashboard" duration-ms="1306" started-at="2023-01-13T15:49:41 IST" finished-at="2023-01-13T15:49:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at Practice_TestNg.CheckDasboard_Head_TestNg.check_dashboard(CheckDasboard_Head_TestNg.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[check_dashboard========>Testscripts execution started ]]>
+            </line>
+            <line>
+              <![CDATA[===Testscript Execution fail=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- check_dashboard -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configAM" is-config="true" duration-ms="322" started-at="2023-01-13T15:49:43 IST" finished-at="2023-01-13T15:49:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configBM" is-config="true" duration-ms="1365" started-at="2023-01-13T15:49:43 IST" finished-at="2023-01-13T15:49:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="FAIL" signature="check_Head_crp_Bf_dashboard()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="check_Head_crp_Bf_dashboard" duration-ms="352" started-at="2023-01-13T15:49:44 IST" finished-at="2023-01-13T15:49:45 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at Practice_TestNg.CheckDasboard_Head_TestNg.check_Head_crp_Bf_dashboard(CheckDasboard_Head_TestNg.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[check_Head_crp_Bf_dashboard========>Testscripts execution started ]]>
+            </line>
+            <line>
+              <![CDATA[===Testscript Execution fail=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- check_Head_crp_Bf_dashboard -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configAM" is-config="true" duration-ms="268" started-at="2023-01-13T15:49:45 IST" finished-at="2023-01-13T15:49:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configBM" is-config="true" duration-ms="1262" started-at="2023-01-13T15:49:45 IST" finished-at="2023-01-13T15:49:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createCorporate()[pri:1, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="createCorporate" duration-ms="3646" started-at="2023-01-13T15:49:47 IST" finished-at="2023-01-13T15:49:50 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[createCorporate========>Testscripts execution started ]]>
+            </line>
+            <line>
+              <![CDATA[createCorporate=======>Testscript excute successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCorporate -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configAM" is-config="true" duration-ms="1048" started-at="2023-01-13T15:49:50 IST" finished-at="2023-01-13T15:49:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configBM" is-config="true" duration-ms="1360" started-at="2023-01-13T15:49:51 IST" finished-at="2023-01-13T15:49:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="check_Head_crp_Af_dashboard()[pri:2, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="check_Head_crp_Af_dashboard" duration-ms="272" started-at="2023-01-13T15:49:53 IST" finished-at="2023-01-13T15:49:53 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[check_Head_crp_Af_dashboard========>Testscripts execution started ]]>
+            </line>
+            <line>
+              <![CDATA[check_Head_crp_Af_dashboard=======>Testscript excute successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- check_Head_crp_Af_dashboard -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configAM" is-config="true" duration-ms="237" started-at="2023-01-13T15:49:53 IST" finished-at="2023-01-13T15:49:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configBM" is-config="true" duration-ms="1330" started-at="2023-01-13T15:49:53 IST" finished-at="2023-01-13T15:49:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="check_Head_branch_Bf_dashboard()[pri:3, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="check_Head_branch_Bf_dashboard" duration-ms="317" started-at="2023-01-13T15:49:55 IST" finished-at="2023-01-13T15:49:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[check_Head_branch_Bf_dashboard========>Testscripts execution started ]]>
+            </line>
+            <line>
+              <![CDATA[check_Head_branch_Bf_dashboard=======>Testscript excute successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- check_Head_branch_Bf_dashboard -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configAM" is-config="true" duration-ms="242" started-at="2023-01-13T15:49:55 IST" finished-at="2023-01-13T15:49:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configBM" is-config="true" duration-ms="1612" started-at="2023-01-13T15:49:55 IST" finished-at="2023-01-13T15:49:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createBranch()[pri:4, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="createBranch" duration-ms="1886" started-at="2023-01-13T15:49:57 IST" finished-at="2023-01-13T15:49:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[createBranch========>Testscripts execution started ]]>
+            </line>
+            <line>
+              <![CDATA[createBranch=======>Testscript excute successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createBranch -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configAM" is-config="true" duration-ms="872" started-at="2023-01-13T15:49:59 IST" finished-at="2023-01-13T15:50:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configBM" is-config="true" duration-ms="1281" started-at="2023-01-13T15:50:00 IST" finished-at="2023-01-13T15:50:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="check_Head_Branch_Af_dashboard()[pri:5, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="check_Head_Branch_Af_dashboard" duration-ms="261" started-at="2023-01-13T15:50:01 IST" finished-at="2023-01-13T15:50:01 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[check_Head_Branch_Af_dashboard========>Testscripts execution started ]]>
+            </line>
+            <line>
+              <![CDATA[check_Head_Branch_Af_dashboard=======>Testscript excute successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- check_Head_Branch_Af_dashboard -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configAM" is-config="true" duration-ms="230" started-at="2023-01-13T15:50:01 IST" finished-at="2023-01-13T15:50:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="configAC" is-config="true" duration-ms="1097" started-at="2023-01-13T15:50:01 IST" finished-at="2023-01-13T15:50:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="disconnectDB()[pri:0, instance:Practice_TestNg.CheckDasboard_Head_TestNg@2db7a79b]" name="disconnectDB" is-config="true" duration-ms="0" started-at="2023-01-13T15:50:03 IST" finished-at="2023-01-13T15:50:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDB -->
+      </class> <!-- Practice_TestNg.CheckDasboard_Head_TestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

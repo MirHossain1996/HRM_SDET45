@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="tests">
+<groups>
+<run>
+<include name="smoke">
+</include>
+</run>
+</groups>
+  <test thread-count="2" name="Test" parallel="tests">
+    <classes>
+      <class name="Practice_Package.SampleEmp_HeadTestNg_05"/>
+      <class name="Practice_Package.SampleAdminTestNg_02"/>
+      <class name="Practice_Package.SampleBranchTestNg_01"/>
+      <class name="Practice_Package.SampleEmp_OffTestNg_03"/>
+      <class name="Practice_Package.SampleEmpAssTestNg_04"/>
+      <class name="Practice_Package.SampleCorpTestNg_06"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
